@@ -4,4 +4,4 @@ dog_age = input ("What is your dog's age? ")
 
 human_age = int(dog_age) * 7
 
-print(human_age)
+print('Your Dog,',dog_name,is,human_age,'years old.')
