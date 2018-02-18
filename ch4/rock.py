@@ -16,4 +16,6 @@ else:
 	
 	computer_choice = 'scissors'
 
-print ('The computer chooses', computer_choice)
+user_choice = input('rock, paper or scissors? ')
+
+print('You choose', user_choice, 'and the computer choose', computer_choice)
