@@ -2,19 +2,9 @@
 
 import random
 
-random_choice = random.randint(0,2)
+choices = ['rock', 'paper', 'scissors']
 
-if random_choice == 0:
-	
-	computer_choice = 'rock'
-	
-elif random_choice == 1:
-	
-	computer_choice = 'paper'
-	
-else:
-	
-	computer_choice = 'scissors'
+computer_choice = random.choice(choices)
 
 user_choice = input('rock, paper or scissors? ')
 
