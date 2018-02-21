@@ -4,7 +4,11 @@ import random
 
 winner = ''
 
+# Define the options that the computer can choose from.
+
 choices = ['rock', 'paper', 'scissors']
+
+# Use the random.choice module to randomly choose one of the options above.
 
 computer_choice = random.choice(choices)
 
