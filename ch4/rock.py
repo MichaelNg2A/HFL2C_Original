@@ -2,6 +2,8 @@
 
 import random
 
+# Define the "winner" variable with an empty string.
+
 winner = ''
 
 # Define the options that the computer can choose from.
@@ -11,6 +13,8 @@ choices = ['rock', 'paper', 'scissors']
 # Use the random.choice module to randomly choose one of the options above.
 
 computer_choice = random.choice(choices)
+
+# Subroutine to prompt the user for an option and verify that it's valid.
 
 user_choice = ''
 while (user_choice != 'rock' and
