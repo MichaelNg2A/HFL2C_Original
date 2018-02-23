@@ -6,7 +6,7 @@
 # Name:       rock.py                                      #
 # Version:    1.0                                          #
 # Updated February 22nd, 2018                              #
-# Author:     MichaelNg2A                                  #
+# Author:     MichaelNg.GitHub@KWMeads.com                 #
 #                                                          #
 # This is a Python Program to play Rock, Paper Scissors    #
 # with the computer.  Based on the exercises in Head First #
