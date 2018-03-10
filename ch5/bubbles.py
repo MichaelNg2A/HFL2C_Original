@@ -7,7 +7,23 @@ scores = [60, 50, 60, 58, 54, 54,
               46, 31, 57, 52, 44, 18,
               41, 53, 55, 61, 51, 44]
 
+high_score = 0
+
 i = 0
 length = len(scores)
 for i in range(length):
     print('Bubble solution #' + str(i), 'score:', scores[i])
+    if scores[i] > high_score:
+        high_score = scores[i]
+
+print('Bubble tests:', length)
+print('High Score:', high_score)
+
+best_solutions = []
+for i in range(length):
+    if scores[i] == high_score:
+        best_solutions.append(i)
+
+print('Solutions with highest score:',best_solutions)
+
+
