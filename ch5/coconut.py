@@ -13,7 +13,7 @@ has_coconut = [True,
                False]
 
 i = 0
-while i < len(has_coconut):
+length = len(smoothies)
+for i in range(length):
     if has_coconut[i]:
         print(smoothies[i],'contains coconut')
-    i = i + 1
