@@ -41,3 +41,17 @@ for i in range(length):
         cost = costs[i]
 print('Solution', most_effective,
       'is the most effective with a cost of', costs[most_effective])
+
+cost_per_bubble = 100.0
+most_economical = 0
+cost_per_bubbles = []
+for i in range(length):
+    cost_per_bubbles.append(costs[i] / scores[i])
+
+for i in range(length):
+    if cost_per_bubbles[i] < cost_per_bubble:
+        most_economical = i
+        cost_per_bubble = cost_per_bubbles[i]
+
+print('Solution', most_economical,
+      'is the most economical with a cost of', costs[most_economical])
